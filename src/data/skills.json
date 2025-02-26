@@ -1,0 +1,36 @@
+{
+    "en": {
+        "title": "Skills",
+        "skills": [
+            {
+                "name": "JavaScript",
+                "description": "JavaScript is the programming language that, along with HTML and CSS, is one of the core technologies of the World Wide Web."
+            },
+            {
+                "name": "React.js",
+                "description": "React is an open source javascript library for building user interfaces."
+            },
+            {
+                "name": "Node.js",
+                "description": "Node.js is an open-source, open-source, server-side execution environment for networked applications."
+            }
+        ]
+    },
+    "tr": {
+        "title": "Yetenekler",
+        "skills": [
+            {
+                "name": "JavaScript",
+                "description": "JavaScript, HTML ve CSS ile birlikte World Wide Web'in temel teknolojilerinden biri olan programlama dilidir."
+            },
+            {
+                "name": "React.js",
+                "description": "React, kullanıcı arayüzü oluşturmaya yarayan açık kaynak kodlu bir javascript kütüphanesidir."
+            },
+            {
+                "name": "Node.js",
+                "description": "Node.js, açık kaynaklı, genelde sunucu tarafında çalışan ve ağ bağlantılı uygulamalar için geliştirilmiş bir çalıştırma ortamıdır."
+            }
+        ]
+    }
+}

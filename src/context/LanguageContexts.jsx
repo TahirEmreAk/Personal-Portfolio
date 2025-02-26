@@ -1,23 +1,22 @@
-import { createContext, useState, useEffect } from "react";
-import ceviri from "../data/translations.json";
+import React, { createContext, useState } from "react";
+import translations from '../data/translations.json';
 
 export const ContextLanguage = createContext();
 
-export const LanguageContexts = ({ children }) => {
+const LanguageProvider = ({ children }) => {
     const [language, setLanguage] = useState("en");
-    const [content, setContent] = useState(ceviri[language] || {});
 
-    useEffect(() => {
-        setContent(ceviri[language] || {});
-    }, [language]);
-
-    const dilDegistir = (yeniDil) => {
-        setLanguage(yeniDil);
+    const dilDegistir = () => {
+        setLanguage((prevLang) => (prevLang === "en" ? "tr" : "en"));
     };
 
+    const content = translations[language];
+
     return (
-        <ContextLanguage.Provider value={{ dilDegistir, content, language }}>
+        <ContextLanguage.Provider value={{ language, dilDegistir, content }}>
             {children}
         </ContextLanguage.Provider>
     );
 };
+
+export default LanguageProvider;
