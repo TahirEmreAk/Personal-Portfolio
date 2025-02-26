@@ -1,0 +1,22 @@
+{
+    "en": {
+        "skils": "Skils",
+        "Projects": "Projects",
+        "HireMe": "Hire me",
+        "name": "Tahir Emre AK",
+        "desciption": "Fullstack Web Developer",
+        "resume": "weather is sunny",
+        "github": "Github",
+        "linkedin": "linkedin"
+    },
+    "tr": {
+        "skils": "Yetenekler",
+        "Projects": "Projeler",
+        "HireMe": "Birlikte Çalışalım",
+        "name": "Tahir Emre AK",
+        "desciption": "Fullstack Web Developer",
+        "resume": "hava güneşli",
+        "github": "Github",
+        "linkedin": "linkedin"
+    }
+}
