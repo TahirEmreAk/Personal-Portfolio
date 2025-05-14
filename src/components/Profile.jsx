@@ -10,7 +10,7 @@ const Profile = () => {
                     <h4>Profile</h4>
                     <ul>
                         <li><strong>Doğum tarihi:</strong> 28.08.1997</li>
-                        <li><strong>İkamet Şehri:</strong> Tokat</li>
+                        <li><strong>İkamet Şehri:</strong> Sakarya</li>
                         <li><strong>Eğitim Durumu:</strong> TOBB Ekonomi ve Teknoloji Üni. Hukuk</li>
                         <li><strong>Lisans,</strong> 2020</li>
                         <li><strong>Tercih Ettiği Rol:</strong> Frontend, UI</li>
