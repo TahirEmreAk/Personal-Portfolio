@@ -46,3 +46,34 @@
     color: #3730A3;
     background: #f3f3ff;
 }
+body.dark .navbar {
+    background: linear-gradient(120deg, #181a20 0%, #232336 100%);
+    box-shadow: 0 8px 36px rgba(0,0,0,0.22);
+}
+body.dark .navbar-name {
+    background-color: #3730A3;
+    color: #fff;
+}
+body.dark .navbar-link-item {
+    color: #fafafa;
+    background: #232336;
+}
+body.dark .navbar-link-item:hover {
+    border: 1px solid #8b5cf6;
+    color: #8b5cf6;
+    background: #18181b;
+}
+body.dark .navbar-links button {
+    background: #232336;
+    color: #fafafa;
+    border: 1px solid #8b5cf6;
+    border-radius: 8px;
+    padding: 8px 16px;
+    margin-left: 4px;
+    transition: background 0.2s, color 0.2s;
+}
+body.dark .navbar-links button:hover {
+    background: #8b5cf6;
+    color: #232336;
+    border: 1px solid #fafafa;
+}

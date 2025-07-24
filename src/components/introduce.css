@@ -80,3 +80,30 @@ body {
     border-radius: 15px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
+
+body.dark .introduce-section {
+    color: #f3f3f3;
+}
+body.dark .introduce-title {
+    color: #a5b4fc;
+}
+body.dark .introduce-description {
+    color: #e5e7eb;
+}
+body.dark .introduce-btn {
+    background: #232336;
+    color: #a5b4fc;
+    border: 1px solid #a5b4fc;
+}
+body.dark .introduce-btn:hover {
+    background: #a5b4fc;
+    color: #232336;
+}
+body.dark .introduce-btn-primary {
+    background: #a5b4fc;
+    color: #232336;
+}
+body.dark .introduce-btn-primary:hover {
+    background: #3730A3;
+    color: #fff;
+}

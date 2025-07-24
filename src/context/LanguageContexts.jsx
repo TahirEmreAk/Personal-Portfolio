@@ -6,8 +6,12 @@ export const ContextLanguage = createContext();
 const LanguageProvider = ({ children }) => {
     const [language, setLanguage] = useState("en");
 
+    const languages = ["en", "tr", "ru"];
     const dilDegistir = () => {
-        setLanguage((prevLang) => (prevLang === "en" ? "tr" : "en"));
+        setLanguage((prevLang) => {
+            const currentIndex = languages.indexOf(prevLang);
+            return languages[(currentIndex + 1) % languages.length];
+        });
     };
 
     const content = translations[language];

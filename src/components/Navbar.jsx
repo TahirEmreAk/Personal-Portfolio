@@ -7,6 +7,12 @@ const Navbar = () => {
     const [isDarkMode, setIsDarkMode] = useDarkMode();
     const { dilDegistir, content, language } = useContext(ContextLanguage);
 
+    const languageNames = {
+        en: "English",
+        tr: "Türkçe",
+        ru: "Русский"
+    };
+
     return (
         <div className="navbar">
             <div className="navbar-name">T</div>
@@ -14,9 +20,9 @@ const Navbar = () => {
                 <a href="#" className="navbar-link-item">{content.skils}</a>
                 <a href="#" className="navbar-link-item">{content.Projects}</a>
                 <a href="#" className="navbar-link-item">{content.HireMe}</a>
-                <button onClick={() => setIsDarkMode(!isDarkMode)}>Dark Mode</button>
+                <button onClick={() => setIsDarkMode(!isDarkMode)}>{isDarkMode ? content.lightMode : content.darkMode}</button>
                 <button onClick={dilDegistir}>
-                    {language === "en" ? "Dili Değiştir" : "Change Language"}
+                    {languageNames[language]}
                 </button>
             </div>
         </div>

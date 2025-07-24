@@ -1,28 +1,28 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./introduce.css";
+import { ContextLanguage } from '../context/LanguageContexts';
 
 const Introduce = () => {
+    const { content } = useContext(ContextLanguage);
     return (
         <div className="introduce">
             <div className="introduce-section">
                 <div className="introduce-name">
                     <span className="introduce-line"></span>
-                    <span className="introduce-text">Tahir Emre AK</span>
+                    <span className="introduce-text">{content.name}</span>
                 </div>
                 <h1 className="introduce-title">
-                    Creative thinker <br />
-                    Minimalism lover
+                    {content.introTitle.split('\n').map((line, idx) => (
+                        <React.Fragment key={idx}>{line}<br /></React.Fragment>
+                    ))}
                 </h1>
                 <p className="introduce-description">
-                    Hi, I'm Tahir Emre AK. I'm a full-stack developer. If you are looking for a
-                    Developer who to craft solid and scalable frontend products with great
-                    user experiences. Let’s shake hands with me.
+                    {content.introDesc}
                 </p>
-
                 <div className="introduce-links">
-                    <a className="introduce-btn introduce-btn-primary" href="#">Hire me</a>
-                    <a className="introduce-btn" href="https://github.com/TahirEmreAk" target="_blank">Github</a>
-                    <a className="introduce-btn" href="https://www.linkedin.com/in/tahir-emre-ak-804ab0203/" target="_blank" >Linkedin</a>
+                    <a className="introduce-btn introduce-btn-primary" href="#">{content.HireMe}</a>
+                    <a className="introduce-btn" href="https://github.com/TahirEmreAk" target="_blank">{content.github}</a>
+                    <a className="introduce-btn" href="https://www.linkedin.com/in/tahir-emre-ak-804ab0203/" target="_blank" >{content.linkedin}</a>
                 </div>
             </div>
             <div className="introduce-image">

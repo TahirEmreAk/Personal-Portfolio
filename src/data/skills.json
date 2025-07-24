@@ -13,6 +13,42 @@
             {
                 "name": "Node.js",
                 "description": "Node.js is an open-source, open-source, server-side execution environment for networked applications."
+            },
+            {
+                "name": "Java",
+                "description": "Java is a versatile, object-oriented programming language used for building robust applications."
+            },
+            {
+                "name": "Axios",
+                "description": "Axios is a promise-based HTTP client for making requests from the browser or Node.js."
+            },
+            {
+                "name": "SQL",
+                "description": "SQL is a standard language for managing and querying relational databases."
+            },
+            {
+                "name": "Spring Boot",
+                "description": "Spring Boot simplifies the development of stand-alone, production-grade Spring-based applications."
+            },
+            {
+                "name": "Git",
+                "description": "Git is a distributed version control system for tracking changes in source code."
+            },
+            {
+                "name": "Cypress",
+                "description": "Cypress is a modern end-to-end testing framework for web applications."
+            },
+            {
+                "name": "CSS",
+                "description": "CSS is a style sheet language used for describing the look and formatting of a document written in HTML."
+            },
+            {
+                "name": "HTML",
+                "description": "HTML is the standard markup language for creating web pages and applications."
+            },
+            {
+                "name": "Tailwind CSS",
+                "description": "Tailwind CSS is a utility-first CSS framework for rapidly building custom user interfaces."
             }
         ]
     },
@@ -30,6 +66,95 @@
             {
                 "name": "Node.js",
                 "description": "Node.js, açık kaynaklı, genelde sunucu tarafında çalışan ve ağ bağlantılı uygulamalar için geliştirilmiş bir çalıştırma ortamıdır."
+            },
+            {
+                "name": "Java",
+                "description": "Java, sağlam uygulamalar geliştirmek için kullanılan nesne yönelimli, çok yönlü bir programlama dilidir."
+            },
+            {
+                "name": "Axios",
+                "description": "Axios, tarayıcı veya Node.js üzerinden HTTP istekleri yapmak için kullanılan promise tabanlı bir istemcidir."
+            },
+            {
+                "name": "SQL",
+                "description": "SQL, ilişkisel veritabanlarını yönetmek ve sorgulamak için standart bir dildir."
+            },
+            {
+                "name": "Spring Boot",
+                "description": "Spring Boot, bağımsız ve üretime hazır Spring tabanlı uygulamaların geliştirilmesini kolaylaştırır."
+            },
+            {
+                "name": "Git",
+                "description": "Git, kaynak kodundaki değişiklikleri takip etmek için kullanılan dağıtık bir versiyon kontrol sistemidir."
+            },
+            {
+                "name": "Cypress",
+                "description": "Cypress, modern web uygulamaları için uçtan uca test framework'üdür."
+            },
+            {
+                "name": "CSS",
+                "description": "CSS, HTML ile oluşturulan belgelerin görünümünü ve biçimini tanımlamak için kullanılan bir stil dilidir."
+            },
+            {
+                "name": "HTML",
+                "description": "HTML, web sayfaları ve uygulamaları oluşturmak için kullanılan standart işaretleme dilidir."
+            },
+            {
+                "name": "Tailwind CSS",
+                "description": "Tailwind CSS, hızlı ve özelleştirilebilir kullanıcı arayüzleri oluşturmak için kullanılan yardımcı sınıf tabanlı bir CSS framework'üdür."
+            }
+        ]
+    },
+    "ru": {
+        "title": "Навыки",
+        "skills": [
+            {
+                "name": "JavaScript",
+                "description": "JavaScript — это язык программирования, который вместе с HTML и CSS является одной из основных технологий Всемирной паутины."
+            },
+            {
+                "name": "React.js",
+                "description": "React — это библиотека JavaScript с открытым исходным кодом для создания пользовательских интерфейсов."
+            },
+            {
+                "name": "Node.js",
+                "description": "Node.js — это среда выполнения с открытым исходным кодом для серверных приложений."
+            },
+            {
+                "name": "Java",
+                "description": "Java — это универсальный объектно-ориентированный язык программирования для создания надежных приложений."
+            },
+            {
+                "name": "Axios",
+                "description": "Axios — это HTTP-клиент на основе промисов для выполнения запросов из браузера или Node.js."
+            },
+            {
+                "name": "SQL",
+                "description": "SQL — это стандартный язык для управления и запроса реляционных баз данных."
+            },
+            {
+                "name": "Spring Boot",
+                "description": "Spring Boot упрощает разработку автономных, готовых к производству приложений на основе Spring."
+            },
+            {
+                "name": "Git",
+                "description": "Git — это распределенная система управления версиями для отслеживания изменений в исходном коде."
+            },
+            {
+                "name": "Cypress",
+                "description": "Cypress — это современный фреймворк для сквозного тестирования веб-приложений."
+            },
+            {
+                "name": "CSS",
+                "description": "CSS — это язык таблиц стилей для описания внешнего вида и форматирования документов, написанных на HTML."
+            },
+            {
+                "name": "HTML",
+                "description": "HTML — это стандартный язык разметки для создания веб-страниц и приложений."
+            },
+            {
+                "name": "Tailwind CSS",
+                "description": "Tailwind CSS — это CSS-фреймворк, ориентированный на utility-классы, для быстрого создания пользовательских интерфейсов."
             }
         ]
     }
